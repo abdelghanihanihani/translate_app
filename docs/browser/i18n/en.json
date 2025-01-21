@@ -1,0 +1,23 @@
+{
+  "firstname": {
+    "value": "FirstName",
+    "placeholder": "Enter your firstName",
+    "required": "FirstName is required"
+  },
+  "lastname": {
+    "value": "LastName",
+    "placeholder": "Enter your lastName",
+    "required": "LastName is required"
+
+  },
+  "email": {
+    "value": "Email",
+    "placeholder": "Enter your email",
+    "required": "Email is required",
+    "email": "Email is invalid"
+
+  },
+  "submit": "Submit",
+  "english": "English",
+  "arabic": "Arabic"
+}
