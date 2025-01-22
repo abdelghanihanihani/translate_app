@@ -1,60 +1,30 @@
-
 # TranslateApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.
+This project is a simple Angular application that uses Angular Material for UI components and ngx-translate for internationalization, supporting both Arabic (ar) and English (en) languages.
 
-## Development server
+**Please support this project by simply putting a Github star ⭐. 🙏 Thanks**
 
-To start a local development server, run:
+## Technologies
 
-```bash
-ng serve
-```
+- Frontend Framework: Angular 19
+- UI Framework: Angular Material for responsive and modern design
+- CSS Preprocessing: CSS for modular and maintainable stylesheets
+- Internationalization (i18n) using ngx-translate.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+## Installation
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Run `npm install` to install all the required dependencies
 
-```bash
-ng generate component component-name
-```
+Then run `ng serve` to start a dev server.
+Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## English
+<img width="605" alt="Screenshot 2025-01-22 at 11 09 40 AM" src="https://github.com/user-attachments/assets/88470931-46af-40c5-8d9c-67ac98474202" />
 
-```bash
-ng generate --help
-```
+## Arabic
+<img width="621" alt="Screenshot 2025-01-22 at 11 10 03 AM" src="https://github.com/user-attachments/assets/fd036989-4017-4e94-9390-0d805fad917a" />
 
-## Building
+## Online Demo
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+You can try the online demo of this Angular 19 App [here](https://abdelghanihanihani.github.io/translate_app/).
