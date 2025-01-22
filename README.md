@@ -27,4 +27,4 @@ Navigate to `http://localhost:4200/`. The app will automatically reload if you c
 
 ## Online Demo
 
-You can try the online demo of this Angular 13 App [here](https://abdelghanihanihani.github.io/translate_app/).
+You can try the online demo of this Angular 19 App [here](https://abdelghanihanihani.github.io/translate_app/).
