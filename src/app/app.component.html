@@ -1,33 +1,37 @@
-<form class="form" [dir]="direction" [formGroup]="form">
-  <div>
-    <button mat-flat-button (click)="changeLangEn()">{{'english' | translate}}</button>
-    <button mat-flat-button (click)="changeLangAr()">{{'arabic' | translate}}</button>
+<div class="main" [dir]="direction">
 
-  </div>
-  <mat-form-field appearance="outline">
-    <mat-label>{{'firstname.value' | translate}}</mat-label>
-    <input matInput formControlName="firstname" placeholder="{{'firstname.placeholder' | translate}}">
-    <mat-error *ngIf="form.get('firstname')?.hasError('required')">{{'firstname.required' | translate}}</mat-error>
-  </mat-form-field>
+  <form class="form"[formGroup]="form">
+    <div>
+      <button mat-flat-button (click)="changeLangEn()">{{'english' | translate}}</button>
+      <button mat-flat-button (click)="changeLangAr()">{{'arabic' | translate}}</button>
 
-  <mat-form-field appearance="outline">
-    <mat-label>{{'lastname.value' | translate}}</mat-label>
-    <input matInput formControlName="lastname" placeholder="{{'lastname.placeholder' | translate}}">
-    <mat-error *ngIf="form.get('lastname')?.hasError('required')">{{'lastname.required' | translate}}</mat-error>
+    </div>
+    <mat-form-field appearance="outline">
+      <mat-label>{{'firstname.value' | translate}}</mat-label>
+      <input matInput formControlName="firstname" placeholder="{{'firstname.placeholder' | translate}}">
+      <mat-error *ngIf="form.get('firstname')?.hasError('required')">{{'firstname.required' | translate}}</mat-error>
+    </mat-form-field>
 
-  </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>{{'lastname.value' | translate}}</mat-label>
+      <input matInput formControlName="lastname" placeholder="{{'lastname.placeholder' | translate}}">
+      <mat-error *ngIf="form.get('lastname')?.hasError('required')">{{'lastname.required' | translate}}</mat-error>
 
-  <mat-form-field appearance="outline">
-    <mat-label>{{'email.value' | translate}}</mat-label>
-    <input matInput formControlName="email" placeholder="{{'email.placeholder' | translate}}">
-    <mat-error *ngIf="form.get('email')?.hasError('required')">{{'email.required' | translate}}</mat-error>
-    <mat-error *ngIf="form.get('email')?.hasError('email')">{{'email.email' | translate}}</mat-error>
+    </mat-form-field>
 
-  </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>{{'email.value' | translate}}</mat-label>
+      <input matInput formControlName="email" placeholder="{{'email.placeholder' | translate}}">
+      <mat-error *ngIf="form.get('email')?.hasError('required')">{{'email.required' | translate}}</mat-error>
+      <mat-error *ngIf="form.get('email')?.hasError('email')">{{'email.email' | translate}}</mat-error>
 
-  <div>
-    <button mat-flat-button [disabled]="!form.valid">{{'submit' | translate}}</button>
-  </div>
-</form>
+    </mat-form-field>
 
+    <div>
+      <button mat-flat-button [disabled]="!form.valid">{{'submit' | translate}}</button>
+    </div>
+  </form>
+
+
+</div>
 
